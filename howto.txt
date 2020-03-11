@@ -1,0 +1,8 @@
+Make list of packages:
+
+pacman -Qqen > pkglist.txt
+
+To install:
+
+pacman -S - < pkglist.txt
+
