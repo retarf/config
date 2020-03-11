@@ -1,2 +1,3 @@
 powerline2
+powerline-vim
 
