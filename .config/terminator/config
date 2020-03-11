@@ -1,0 +1,42 @@
+[global_config]
+  borderless = True
+  focus = system
+  title_receive_bg_color = "#a40000"
+  title_transmit_bg_color = "#204a87"
+  title_use_system_font = False
+  window_state = maximise
+[keybindings]
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  go_up = <Alt>k
+  layout_launcher = <Primary>Page_Up
+  split_horiz = <Alt>m
+  split_vert = <Alt>n
+  toggle_scrollbar = <Alt>p
+  toggle_zoom = <Alt>i
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    audible_bell = True
+    cursor_color = "#aaaaaa"
+    font = Monospace 9
+    foreground_color = "#00ff00"
+    scrollbar_position = hidden
+    urgent_bell = True
+    use_system_font = False
+  [[testowy]]
+    cursor_color = "#aaaaaa"
+    font = Monospace 9
+    foreground_color = "#729fcf"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
