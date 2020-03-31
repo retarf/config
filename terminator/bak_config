@@ -1,0 +1,33 @@
+[global_config]
+  borderless = True
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_hide_sizetext = True
+[keybindings]
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  go_up = <Alt>k
+  help = <Alt>Escape
+  layout_launcher = F1
+  rotate_ccw = <Alt>bracketleft
+  rotate_cw = <Alt>bracketright
+  split_horiz = <Alt>m
+  split_vert = <Alt>n
+  toggle_scrollbar = <Alt>p
+  toggle_zoom = <Alt>i
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    font = Monospace 9
+    foreground_color = "#00ff00"
+    scrollbar_position = hidden
+    use_system_font = False
